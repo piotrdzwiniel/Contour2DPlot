@@ -5,7 +5,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 
 /**
- * Created by pdzwiniel on 2016-03-15.
+ * Created by pdzwiniel on 2016-03-21.
  */
 public class IsoCell extends Pane {
 

@@ -1,7 +1,7 @@
 package org.contour2dplot;
 
 /**
- * Created by pdzwiniel on 2016-03-18.
+ * Created by pdzwiniel on 2016-03-21.
  */
 public class BicubicInterpolator extends CubicInterpolator {
 
