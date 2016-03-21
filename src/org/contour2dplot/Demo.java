@@ -54,7 +54,7 @@ public class Demo extends Application {
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
             String line;
-            
+
             while ((line = bufferedReader.readLine()) != null) {
                 String[] values = line.split("\t");
                 ArrayList<Double> row = new ArrayList<>();
