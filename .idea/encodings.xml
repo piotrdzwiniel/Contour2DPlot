@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/RandomData.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/contour2dplot/BicubicInterpolator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/contour2dplot/CubicInterpolator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/contour2dplot/IsoCell.java" charset="UTF-8" />
+  </component>
+</project>
