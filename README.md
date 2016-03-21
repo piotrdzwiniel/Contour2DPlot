@@ -1,5 +1,5 @@
 # Contour2DPlot
-Custom, simple plotting library written in JavaFX, allowing for displaying 2D contour plot for two-dimensional data. Implementation is based on https://en.wikipedia.org/wiki/Marching_squares#Isoband.
+Custom, simple plotting library written in Java and JavaFX, allowing for displaying 2D contour plot for two-dimensional data. Implementation is based on https://en.wikipedia.org/wiki/Marching_squares#Isoband.
 
 <h2>How to use?</h2>
 
