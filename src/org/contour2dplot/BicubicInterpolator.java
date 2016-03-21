@@ -12,8 +12,8 @@ public class BicubicInterpolator extends CubicInterpolator {
         x -= xi;
         arr[0] = getValue(p[Math.max(0, xi - 1)], y);
         arr[1] = getValue(p[xi], y);
-        arr[2] = getValue(p[Math.min(p.length - 1,xi + 1)], y);
+        arr[2] = getValue(p[Math.min(p.length - 1, xi + 1)], y);
         arr[3] = getValue(p[Math.min(p.length - 1, xi + 2)], y);
-        return getValue(arr, x+ 1);
+        return getValue(arr, x + 1);
     }
 }
