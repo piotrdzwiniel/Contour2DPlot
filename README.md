@@ -35,6 +35,6 @@ contour2DMap.draw();
 
 Contour2DPlot allows one to plot color and monochromatic maps.
 
-![Image1](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/ContourPlotColor.png)
+![Image1](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapMonochromatic.png)
 
-![Image2](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/ContourPlotMonochromatic.png)
+![Image2](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapColor.png)
