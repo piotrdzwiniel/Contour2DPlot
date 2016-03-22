@@ -1,6 +1,6 @@
 # Contour2DPlot
 <h4>Under GNU GPLv3 license (or later)</h4>
-Simple plotting library written in Java and JavaFX, allowing for the creation of two-dimensional contour plot for two-dimensional data. Implementation is based on Marching Squares - https://en.wikipedia.org/wiki/Marching_squares#Isoband.
+Simple plotting package written in Java and JavaFX, allowing for the creation of two-dimensional contour plot for two-dimensional data. Implementation is based on Marching Squares - https://en.wikipedia.org/wiki/Marching_squares#Isoband.
 
 <h2>How to use?</h2>
 
