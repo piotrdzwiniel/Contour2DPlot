@@ -9,6 +9,9 @@ All you need to do is to prepare `double[][] data` and create `Contour2DMap` obj
 // Specify in the constructor width and height of the contour map.
 Contour2DMap contour2DMap = new Contour2DMap(600, 600);
 
+// Specify size for the contour map container.
+contour2DMap.setPrefSize(600, 600);
+
 // Set data.
 contour2DMap.setData(data);
 
