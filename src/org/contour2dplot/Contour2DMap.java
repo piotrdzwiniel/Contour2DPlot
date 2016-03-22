@@ -39,7 +39,7 @@ public class Contour2DMap extends Pane {
     private double sizeY;
 
     private double[][] data;
-    private int isoFactor;
+    private double isoFactor;
     private int interpolationFactor;
     private String mapColorScale;
 
@@ -292,7 +292,7 @@ public class Contour2DMap extends Pane {
         this.data = data;
     }
 
-    public void setIsoFactor(int isoFactor) {
+    public void setIsoFactor(double isoFactor) {
         this.isoFactor = isoFactor;
     }
 
