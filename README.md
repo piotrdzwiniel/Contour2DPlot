@@ -6,12 +6,12 @@ Simple plotting library written in Java and JavaFX, allowing for the creation of
 All you need to do is to prepare `double[][] data` and create `Contour2DMap` object. Example use of this simple library can look like this:
 
 ```
-Contour2DMap contour2DMap = new Contour2DMap(600, 600);
-contour2DMap.setData(data);
-contour2DMap.setIsoFactor(1);
-contour2DMap.setInterpolationFactor(10);
-contour2DMap.setMapColorScale("Color"); // or "Monochromatic".
-contour2DMap.draw();
+Contour2DMap contour2DMap = new Contour2DMap(600, 600);    // Specify in the constructor width and height of the contour map.
+contour2DMap.setData(data);    // Set data.
+contour2DMap.setIsoFactor(1);    // Set iso factor, which is a step between subsequent iso values.
+contour2DMap.setInterpolationFactor(10);    // Set interpolation factor.
+contour2DMap.setMapColorScale("Color");    // Set contour map color scale - "Color" or "Monochromatic".
+contour2DMap.draw();    // Draw all elements on the contour map.
 ```
 
 `Contour2DMap` object inherits from `javafx.scene.layout.Pane`, so you can nest it in other `javafx.scene.layout.*` objects, such as `BorderPane`.
