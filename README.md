@@ -4,7 +4,7 @@ Simple plotting package written in Java and JavaFX, allowing for the creation of
 
 <h2>How to use?</h2>
 
-In order to use package in your project you have to copy and paste `org.contour2dplot.*` to the project's location. Now, after including imports in your class, all you need to do is to prepare `double[][] data` and create `Contour2DMap` object. Example use of this simple library can look like this:
+In order to use package in your project you have to copy and paste `org.contour2dplot.*` to the project's location. Now, after including imports in your class, all you need to do is to prepare `double[][] data` and create `Contour2DMap` object. Example use can look like this:
 
 ```
 // Specify in the constructor width and height of the contour map.
