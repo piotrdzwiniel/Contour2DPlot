@@ -17,7 +17,7 @@ contour2DMap.setPrefSize(600, 600);
 contour2DMap.setData(data);
 
 // Set iso factor, which is a step between subsequent iso values.
-contour2DMap.setIsoFactor(1);
+contour2DMap.setIsoFactor(1.0);
 
 // Set interpolation factor.
 contour2DMap.setInterpolationFactor(10);
