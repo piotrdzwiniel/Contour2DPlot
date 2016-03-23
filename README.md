@@ -4,7 +4,7 @@ Simple plotting package written in Java and JavaFX, allowing for the creation of
 
 <h2>How to use?</h2>
 
-All you need to do is to prepare `double[][] data` and create `Contour2DMap` object. Example use of this simple library can look like this:
+In order to use package in your project you have to copy and paste `org.contour2dplot.*` to the project's location. Now, after including imports in your class, all you need to do is to prepare `double[][] data` and create `Contour2DMap` object. Example use can look like this:
 
 ```
 // Specify in the constructor width and height of the contour map.
@@ -17,7 +17,7 @@ contour2DMap.setPrefSize(600, 600);
 contour2DMap.setData(data);
 
 // Set iso factor, which is a step between subsequent iso values.
-contour2DMap.setIsoFactor(1);
+contour2DMap.setIsoFactor(1.0);
 
 // Set interpolation factor.
 contour2DMap.setInterpolationFactor(10);
@@ -35,6 +35,6 @@ contour2DMap.draw();
 
 Contour2DPlot allows one to plot color and monochromatic maps.
 
-![Image1](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/ContourPlotColor.png)
+![Image1](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapColor.png)
 
-![Image2](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/ContourPlotMonochromatic.png)
+![Image2](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapMonochromatic.png)
