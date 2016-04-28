@@ -2,6 +2,7 @@ package org.contour2dplot;
 
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -79,7 +80,8 @@ public class Contour2DMap extends Pane {
             temporalData.add(row);
         }
 
-        double[][] interpolatedData = new double[temporalData.size()][temporalData.get(0).size()];
+        int correction = interpolationFactor - 1;
+        double[][] interpolatedData = new double[temporalData.size() - correction][temporalData.get(0).size() - correction];
 
         for (int i = 0; i < interpolatedData.length; i++) {
             for (int j = 0; j < interpolatedData[i].length; j++) {

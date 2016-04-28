@@ -46,9 +46,9 @@ public class Demo extends Application {
         contour2DMap.setMaxSize(600, 600);
 
         contour2DMap.setData(loadData(new File("RandomData.txt")));
-        contour2DMap.setIsoFactor(1.0);
-        contour2DMap.setInterpolationFactor(5);
-        contour2DMap.setMapColorScale("Color");
+        contour2DMap.setIsoFactor(0.1);
+        contour2DMap.setInterpolationFactor(3);
+        contour2DMap.setMapColorScale("Monochromatic");
         contour2DMap.draw();
 
         borderPane.setCenter(contour2DMap);
