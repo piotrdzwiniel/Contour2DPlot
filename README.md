@@ -38,3 +38,17 @@ Contour2DPlot allows one to plot color and monochromatic maps.
 ![Image1](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapColor.png)
 
 ![Image2](https://github.com/bluevoxel/Contour2DPlot/raw/master/screenshots/Contour2DMapMonochromatic.png)
+
+<hr>
+
+<h1>How can I cite Contour2DPlot?</h1>
+
+Contour2DPlot was created because I was lacking of an appropriate visualization tool for my Specvis project (https://github.com/piotrdzwiniel/Specvis). So if you find Contour2DPlot useful for your work/study/research please consider to cite the paper given below:
+
+<ul>
+    <li style="color: #FF2E2E;">In the near future this text will morph into a reference to the publication.</li>
+</ul>
+
+Why I ask you to cite Contour2DPlot by citing Specvis? Well, to be honest, citing it gives me some credit for its creation and motivate me to continue its development. But citing it is also important for a different reason - if you had found Contour2DPlot and/or Specvis useful, it would be desirable to share knowledge about it with others, so it can get to as many people as possible and serve well wherever it's needed.
+
+Piotr Dzwiniel.
