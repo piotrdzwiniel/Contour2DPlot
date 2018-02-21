@@ -46,7 +46,10 @@ Contour2DPlot allows one to plot color and monochromatic maps.
 Contour2DPlot was created because I was lacking of an appropriate visualization tool for my Specvis project (https://github.com/piotrdzwiniel/Specvis). So if you find Contour2DPlot useful for your work/study/research please consider to cite the paper given below:
 
 <ul>
-    <li style="color: #FF2E2E;">In the near future this text will morph into a reference to the publication.</li>
+        <li>Dzwiniel P, Gola M, Wójcik-Gryciuk A, Waleszczyk WJ (2017) Specvis: Free and open-source
+        software for visual field examination. PLoS ONE 12 (10): e0186224.
+        <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186224">
+        https://doi.org/10.1371/journal.pone.0186224</a>.</li>
 </ul>
 
 Why I ask you to cite Contour2DPlot by citing Specvis? Well, to be honest, citing it gives me some credit for its creation and motivate me to continue its development. But citing it is also important for a different reason - if you had found Contour2DPlot and/or Specvis useful, it would be desirable to share knowledge about it with others, so it can get to as many people as possible and serve well wherever it's needed.
